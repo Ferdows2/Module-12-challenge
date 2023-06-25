@@ -5,11 +5,18 @@
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
-in this analyisi we used various machine learning technique on historical datasheet and make prediction of fuute financial risk , overall its help identify the creditworthiness of borrowers.
+
+    Answer:  in this analyisi we used various machine learning technique on historical datasheet and make prediction of fuute financial risk , overall its help identify the creditworthiness of borrowers.
 * Explain what financial information the data was on, and what you needed to predict.
-it was a load history data sheet , where it listed all the credit informaton of different borrowers, we  need to predict whether it is feasible to lend money to a new borrowers
+    Answer: it was a Loaner history data sheet , where it listed all the credit informaton of different borrowers, we  need to predict whether it is feasible to lend money to a new borrowers
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
- value_counts() , train_test_split(), LogisticRegression(), predict(), balanced_accuracy_score(), confusion_matrix(), classification_report_imbalanced() 
+      - value_counts() , 
+      - train_test_split(), 
+      - LogisticRegression(), 
+      - predict(), 
+      - balanced_accuracy_score(),
+      - confusion_matrix(), 
+      - classification_report_imbalanced() 
 * Describe the stages of the machine learning process you went through as part of this analysis.
     1. Split the Data into Training and Testing Sets 
     2. Create a Logistic Regression Model with the Original Data
